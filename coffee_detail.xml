@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginTop="30dp"
+            android:padding="30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_launcher_background"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                tools:text="Coffee Title"
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="35dp"
+            android:textSize="20dp"
+            android:justificationMode="inter_word"
+            tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed egestas augue, ut consequat dui.
+        Integer sit amet nunc eget velit porta fringilla"
+
+            />
+
+
+
+    </LinearLayout>
+</FrameLayout>
