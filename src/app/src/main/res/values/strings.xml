@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">CoffeeApp</string>
+    <string name="bottom_menu_name1">Coffee List</string>
+    <string name="bottom_menu_name2">Favorite</string>
+    <string name="coffee_details_label">{name}</string>
+
+    <string-array name="coffee_data1">
+        <item>Espresso</item>
+        <item>Kopi espresso merupakan salah satu jenis kopi yang paling populer dan pasti selalu ada di setiap kedai kopi. Jenis kopi yang satu ini memiliki cita rasa pahit yang sangat khas sehingga banyak dipilih oleh para penikmat kopi.</item>
+        <item>Kopi espresso merupakan salah satu jenis kopi yang paling populer dan pasti selalu ada di setiap kedai kopi. Jenis kopi yang satu ini memiliki cita rasa pahit yang sangat khas sehingga banyak dipilih oleh para penikmat kopi. Biji kopi espresso diolah dengan menggunakan mesin khusus hingga keluar cairan murni berwarna hitam pekat. Namun, seiring dengan perkembangan permintaan pelanggan, saat ini sudah banyak bermunculan variasi-variasi espresso lainnya yang semakin membuat cita rasa kopi ini semakin enak dan nikmat.</item>
+    </string-array>
+    <string-array name="coffee_data2">
+        <item>Americano</item>
+        <item>Jenis minuman kopi ini merupakan gabungan espresso dengan air panas. Meski sama-sama kopi hitam yang pahit, namun rasa kopi americano tidak sepekat kopi espresso.</item>
+        <item>Selain espresso, varian rasa favorit bisnis kopi kekinian selanjutnya adalah americano. Jenis minuman kopi ini merupakan gabungan espresso dengan air panas. Meski sama-sama kopi hitam yang pahit, namun rasa kopi americano tidak sepekat kopi espresso. Jadi, varian rasa kopi ini sangat cocok bagi pelanggan yang ingin menikmati kopi hitam yang pahit, tetapi tidak terlalu pekat.</item>
+    </string-array>
+    <string-array name="coffee_data3">
+        <item>Cappucino</item>
+        <item>Kopi cappucino adalah varian rasa favorit bisnis kopi kekinian yang merupakan minuman khas Italia. Cappucino berasal dari campuran espresso dan susu.</item>
+        <item>Kopi cappucino adalah varian rasa favorit bisnis kopi kekinian yang merupakan minuman khas Italia. Cappucino berasal dari campuran espresso dan susu. Walaupun menggunakan susu, tetapi cappucino berbeda dengan minuman latte. Campuran susu yang digunakan pada cappucino adalah susu dengan foam tebal. Jika kamu memasukkan varian rasa kopi cappucino ke dalam menu bisnis kopi, maka disarankan untuk menyajikannya dalam cangkir keramik agar suhu panas pada kopi bisa bertahan lebih lama daripada menggunakan gelas kaca.</item>
+    </string-array>
+    <string-array name="coffee_data4">
+        <item>Caffe Latte</item>
+        <item>Caffe latte merupakan kopi espresso yang dicampur dengan susu dan biasanya ditambah dengan tampilan latte art yang berasal dari foam.</item>
+        <item>Caffe latte kerap kali disamakan dengan kopi cappucino. Padahal keduanya adalah varian rasa kopi yang berbeda. Caffe latte merupakan kopi espresso yang dicampur dengan susu dan biasanya ditambah dengan tampilan latte art yang berasal dari foam.Caffe latte bisa dikreasikan menjadi banyak gambar seusai degan kreatifitas barista. Caffe latte menjadi menu kopi yang difavoritkan oleh generasi milenial.</item>
+    </string-array>
+    <string-array name="coffee_data5">
+        <item>Macchiato</item>
+        <item>Macchiato merupakan varian rasa favorit bisnis kopi yang berasal dari campuran double shot espresso dengan susu.</item>
+        <item>Macchiato merupakan varian rasa favorit bisnis kopi yang berasal dari campuran double shot espresso dengan susu.Adapun rasio steamed milk yang digunakan lebih banyak dari espresso sehingga rasa yang dihasilkan menjadi lebih gurih dan creamy. Adapun perbandingan kopi macchiato adalah 4:1.Setidaknya terdapat dua jenis macchiato yang menjadi favorit generasi milenial, yaitu latte macchiato dan espresso macchiato.Latte macchiato adalah segelas susu yang diberi tambahan sedikit espresso. Sedangkan espresso macchiato adalah segelas espresso yang diberi tambahan sedikit susu.</item>
+    </string-array>
+    <string-array name="coffee_data6">
+        <item>Affogato</item>
+        <item>Affogato adalah minuman kopi yang terbuat dari campuran espresso pekat dan es krim vanilla yang manis.Perbandingan affogato terdiri dari ⅖ espresso dan ⅗ es krim vanilla.</item>
+        <item>Affogato adalah minuman kopi yang terbuat dari campuran espresso pekat dan es krim vanilla yang manis.Perbandingan affogato terdiri dari ⅖ espresso dan ⅗ es krim vanilla. Jenis kopi yang satu ini menghadirkan perpaduan rasa pahit dan manis yang sangat sempurna. Dapat dipastikan kopi affogato ini akan menjadi salah satu menu favorit untuk bisnis kopi kekinian kamu.</item>
+    </string-array>
+    <string-array name="coffee_data7">
+        <item>Frappe</item>
+        <item>Varian rasa favorit bisnis kopi kekinian selanjutnya adalah frappe. Komposisi frappe terdiri dari kopi instan, gula, air, dan juga es batu.</item>
+        <item>Varian rasa favorit bisnis kopi kekinian selanjutnya adalah frappe. Jenis minuman es kopi ini berasal dari Yunani. Komposisi frappe terdiri dari kopi instan, gula, air, dan juga es batu. Minuman kopi yang satu ini dibuat pertama kali oleh Dimitrios Vakondios pada tahun 1957. Namun kini frappe semakin berkembang hingga banyak menu yang mengadopsi menu awal dari jenis kopi kekinian yang satu ini.</item>
+    </string-array>
+    <string-array name="coffee_data8">
+        <item>Cold Brew</item>
+        <item>Cold brew adalah jenis minuman kopi yang merupakan hasil campuran gilingan kopi dengan air dingin yang dibuat dalam satu wadah.</item>
+        <item>Cold brew adalah jenis minuman kopi yang merupakan hasil campuran gilingan kopi dengan air dingin yang dibuat dalam satu wadah. Kemudian campuran tersebut didiamkan selama kurang lebih 12 jam hingga satu hari penuh. Lalu disaring hingga terpisah dari ampas kopinya. Rasa yang tercipta dari kopi cold brew ini cocok bagi pelanggan yang ingin menikmati kopi yang tidak terlalu asam dan juga tidak terlalu pahit.</item>
+    </string-array>
+    <string-array name="coffee_data9">
+        <item>Cortado</item>
+        <item>Cortado terbuat dari campuran espresso dan juga susu hangat dengan perbandingan 1:1.</item>
+        <item>Cortado adalah jenis kopi yang berasal dari Spanyol dan memiliki arti ‘memotong’. Cortado terbuat dari campuran espresso dan juga susu hangat dengan perbandingan 1:1. Di Italia dan beberapa negara lainnya, cortado sering disebut memiliki rasa yang mirip dengan macchiato.</item>
+    </string-array>
+    <string-array name="coffee_data10">
+        <item>Flat White</item>
+        <item>: Flat white adalah varian rasa yang terbuat dari campuran kopi dan susu dengan rasio susu yang lebih banyak dan tidak menggunakan foam.</item>
+        <item>Flat white adalah varian rasa favorit bisnis kopi lainnya yang terbuat dari campuran kopi dan susu. Jenis kopi ini muncul pertama kali di Selandia Baru dan Australia sekitar tahun 1980. Flat white merupakan kopi dengan rasio susu yang lebih banyak dibandingkan caffe latte dan tidak menggunakan foam. Meski begitu, rasa yang dihasilkan dari flat white lebih kuat daripada caffe latte, namun lebih lembut daripada cappucino.</item>
+    </string-array>
+
+
+    <string name="test_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed egestas augue, ut consequat dui.
+        Integer sit amet nunc eget velit porta fringilla. Aenean efficitur dui sit amet vehicula </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

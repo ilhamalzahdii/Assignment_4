@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/coffeeList">
+    <fragment
+        android:id="@+id/coffeeList"
+        android:name="com.example.coffeeapp.CoffeeList"
+        android:label="Coffee "
+        tools:layout="@layout/fragment_coffee_list" >
+        <action
+            android:id="@+id/action_coffeeList_to_coffeeFavoriteList"
+            app:destination="@id/coffeeFavoriteList" />
+        <action
+            android:id="@+id/action_coffeeList_to_coffeeDetails"
+            app:destination="@id/coffeeDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/coffeeFavoriteList"
+        android:name="com.example.coffeeapp.CoffeeFavoriteList"
+        android:label="Your Favorite"
+        tools:layout="@layout/fragment_coffee_favorite_list" />
+    <fragment
+        android:id="@+id/coffeeDetails"
+        android:name="com.example.coffeeapp.CoffeeDetails"
+        android:label="@string/coffee_details_label"
+        tools:layout="@layout/fragment_coffee_details" >
+        <argument
+            android:name="index"
+            app:argType="integer" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+    </fragment>
+</navigation>
