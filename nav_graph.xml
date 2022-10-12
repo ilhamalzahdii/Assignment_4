@@ -3,24 +3,44 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/coffeeDetail">
-    <fragment
-        android:id="@+id/coffeeDetail"
-        android:name="com.example.tugaske4.coffeeDetail"
-        android:label="fragment_coffee_detail"
-        tools:layout="@layout/fragment_coffee_detail" >
-        <action
-            android:id="@+id/action_coffeeDetail_to_coffeeList"
-            app:destination="@id/coffeeList" />
-    </fragment>
-
+    app:startDestination="@id/coffeeList">
     <fragment
         android:id="@+id/coffeeList"
-        android:name="com.example.tugaske4.coffeeList"
-        android:label="fragment_coffee_list"
+        android:name="unj.cs.hw4.CoffeeList"
+        android:label="Coffee "
         tools:layout="@layout/fragment_coffee_list" >
         <action
-            android:id="@+id/action_coffeeList_to_coffeeDetail"
-            app:destination="@id/coffeeDetail" />
+            android:id="@+id/action_coffeeList_to_coffeeFavoriteList"
+            app:destination="@id/coffeeFavoriteList" />
+        <action
+            android:id="@+id/action_coffeeList_to_coffeeDetails"
+            app:destination="@id/coffeeDetails" />
     </fragment>
+    <fragment
+        android:id="@+id/coffeeFavoriteList"
+        android:name="unj.cs.hw4.CoffeeFavoriteList"
+        android:label="Your Favorite"
+        tools:layout="@layout/fragment_coffee_favorite_list" >
+        <action
+            android:id="@+id/action_coffeeFavoriteList_to_coffeeFavoriteDetails"
+            app:destination="@id/coffeeFavoriteDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/coffeeDetails"
+        android:name="unj.cs.hw4.CoffeeDetails"
+        android:label="@string/coffee_details_label"
+        tools:layout="@layout/fragment_coffee_details" >
+        <argument
+            android:name="index"
+            app:argType="integer" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/coffeeFavoriteDetails"
+        android:name="unj.cs.hw4.CoffeeFavoriteDetails"
+        android:label="CoffeeFavoriteDetails"
+        tools:layout="@layout/fragment_coffee_favorite_details"
+        />
 </navigation>
