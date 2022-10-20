@@ -4,10 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/zulka/Desktop/Zhafran/Semester 5/Moblie Computing/assignment 4/app/src/main/res/layout/activity_main.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/zulka/Desktop/Zhafran/Semester 5/Moblie Computing/assignment 4/app/src/main/res/layout/coffee_favorite_item.xml" value="0.11041666666666666" />
         <entry key="..\:/Users/zulka/Desktop/Zhafran/Semester 5/Moblie Computing/assignment 4/app/src/main/res/layout/coffee_item.xml" value="0.21331521739130435" />
         <entry key="..\:/Users/zulka/Desktop/Zhafran/Semester 5/Moblie Computing/assignment 4/app/src/main/res/layout/fragment_blank.xml" value="0.14356884057971014" />
         <entry key="..\:/Users/zulka/Desktop/Zhafran/Semester 5/Moblie Computing/assignment 4/app/src/main/res/layout/fragment_coffee_detail.xml" value="0.2" />
         <entry key="..\:/Users/zulka/Desktop/Zhafran/Semester 5/Moblie Computing/assignment 4/app/src/main/res/layout/fragment_coffee_details.xml" value="0.14266304347826086" />
+        <entry key="..\:/Users/zulka/Desktop/Zhafran/Semester 5/Moblie Computing/assignment 4/app/src/main/res/layout/fragment_coffee_favorite_details.xml" value="0.264" />
         <entry key="..\:/Users/zulka/Desktop/Zhafran/Semester 5/Moblie Computing/assignment 4/app/src/main/res/layout/fragment_coffee_favorite_list.xml" value="0.25104166666666666" />
         <entry key="..\:/Users/zulka/Desktop/Zhafran/Semester 5/Moblie Computing/assignment 4/app/src/main/res/layout/fragment_coffee_list.xml" value="0.21920289855072464" />
         <entry key="..\:/Users/zulka/Desktop/Zhafran/Semester 5/Moblie Computing/assignment 4/app/src/main/res/layout/layout_menu.xml" value="0.14356884057971014" />

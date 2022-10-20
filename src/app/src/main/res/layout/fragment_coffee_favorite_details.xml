@@ -62,6 +62,6 @@
         android:layout_marginBottom="20dp"
         app:backgroundTint="@color/coffeeBackground1"
         app:maxImageSize="28dp"
-        app:srcCompat="@drawable/ic_favorite"  />
+        app:srcCompat="@drawable/ic_delete"  />
 
 </FrameLayout>

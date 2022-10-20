@@ -6,7 +6,7 @@
     app:startDestination="@id/coffeeList">
     <fragment
         android:id="@+id/coffeeList"
-        android:name="com.example.coffeeapp.CoffeeList"
+        android:name="unj.cs.hw4.CoffeeList"
         android:label="Coffee "
         tools:layout="@layout/fragment_coffee_list" >
         <action
@@ -18,12 +18,16 @@
     </fragment>
     <fragment
         android:id="@+id/coffeeFavoriteList"
-        android:name="com.example.coffeeapp.CoffeeFavoriteList"
+        android:name="unj.cs.hw4.CoffeeFavoriteList"
         android:label="Your Favorite"
-        tools:layout="@layout/fragment_coffee_favorite_list" />
+        tools:layout="@layout/fragment_coffee_favorite_list" >
+        <action
+            android:id="@+id/action_coffeeFavoriteList_to_coffeeFavoriteDetails"
+            app:destination="@id/coffeeFavoriteDetails" />
+    </fragment>
     <fragment
         android:id="@+id/coffeeDetails"
-        android:name="com.example.coffeeapp.CoffeeDetails"
+        android:name="unj.cs.hw4.CoffeeDetails"
         android:label="@string/coffee_details_label"
         tools:layout="@layout/fragment_coffee_details" >
         <argument
@@ -33,4 +37,10 @@
             android:name="name"
             app:argType="string" />
     </fragment>
+    <fragment
+        android:id="@+id/coffeeFavoriteDetails"
+        android:name="unj.cs.hw4.CoffeeFavoriteDetails"
+        android:label="CoffeeFavoriteDetails"
+        tools:layout="@layout/fragment_coffee_favorite_details"
+        />
 </navigation>

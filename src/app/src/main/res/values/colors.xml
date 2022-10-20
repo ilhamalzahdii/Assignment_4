@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="coffeePrimary">#FF42032C</color>
+    <color name="coffeeSecondary">#FF815B5B</color>
     <color name="coffeeBackground1">#FFE6D2AA</color>
     <color name="coffeeBackground2">#FFF1EFDC</color>
     <color name="purple_200">#FFBB86FC</color>
